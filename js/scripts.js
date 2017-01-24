@@ -108,9 +108,9 @@ $(function() {
       $("#results").show();
     }
   });
-  if ((php > java) && (php > css)) {
+  if ((php >= java) && (php >= css)) {
     $("#results").append("<p>You should take the Php course!</p>")
-  } else if ((java > php) && (java > css)) {
+  } else if ((java >= php) && (java >= css)) {
     $("#results").append("<p>You should take the JavaScript course!</p>")
   } else {
     $("#results").append("<p>You should take the Css course!</p>")
